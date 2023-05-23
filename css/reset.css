@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Regular;
+    src: url('../fonts/metropolis/Metropolis-Regular.otf');
+}
+
+@font-face {
+    font-family: Bold;
+    src: url('../fonts/metropolis/Metropolis-Bold.otf');
+}
+
+@font-face {
+    font-family: Medium;
+    src: url('../fonts/metropolis/Metropolis-Medium.otf');
+}
+
+@font-face {
+    font-family: Light;
+    src: url('../fonts/metropolis/Metropolis-Light.otf');
+}
+
+:root{
+    --bs-light-rgb: 242, 246, 252;
+    --bs-primary-soft-rgb: 218, 231, 251;
+    --bs-primary-rgb: 0, 97, 242;
+}
